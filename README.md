@@ -5,4 +5,4 @@ _budeme rádi za Vaše připomínky a dotazy_
 
 [Nejčastější otázky](./dep-nejcastejsi-otazky.md)
 
-[Informační dokument - periferi](./dep-periferie.md)
+[Informační dokument - periferie](./dep-periferie.md)
