@@ -283,8 +283,3 @@ void __ISR(_INPUT_CAPTURE_7_VECTOR) capture7Handler (void)
     IFS2bits.IC7IF = 0; // Remove flag
 }
 ```
-
-
-# Changelog
-
-v0.0.1 - vypsání prvních informací a příkladů používaných periferií, odpovězění na základní otázky
