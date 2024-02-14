@@ -267,7 +267,7 @@ void initCapture7 (void) {
     // CFGCONbits.ICACLK = 1; // Probably set in platform  Input Capture modules use an alternative Timer pair as their timebase clock
     IC7CONbits.ICM = 011; // Input Capture Mode Select - 011 Simple Capture Event - every rising enge, 010 Simple Capture Event - every falling edge, 001 Edge Detect Mode - every edge
     IFS2bits.IC7IF = 0; // Remove flag
-    IPC20bits.IC7IP = 6;
+    IPC20bits.IC7IP = 6; // Priority
     IPC20bits.IC7IS = 0; // Subpriority
     IEC2bits.IC7IE = 1; // Interrupt enable
 }
